@@ -1,0 +1,81 @@
+/* src/assets/styles.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.auth-container {
+  @apply w-full h-screen flex items-center justify-center bg-gray-100;
+}
+
+.auth-card {
+  @apply grid grid-cols-1 lg:grid-cols-2 w-full h-full m-auto shadow-lg bg-white;
+}
+
+.auth-left {
+  @apply flex items-center justify-center p-6 rounded-xl;
+}
+
+.auth-left-inner {
+  @apply w-full max-w-lg h-full flex items-center justify-center;
+}
+
+.auth-right {
+  @apply hidden lg:flex relative w-full h-full p-6 justify-center items-center;
+}
+
+.auth-right img {
+  @apply absolute inset-0 w-[95%] h-[95%] my-auto mx-auto object-cover rounded-xl;
+}
+
+.login-container {
+  @apply max-w-lg mx-auto p-6 space-y-8;
+}
+
+.login-header {
+  @apply text-center;
+}
+
+.login-title {
+  @apply text-4xl font-bold text-gray-800;
+}
+
+.login-subtitle {
+  @apply text-gray-500 my-2 text-lg;
+}
+
+.login-form {
+  @apply space-y-6;
+}
+
+.login-input {
+  @apply py-3 text-lg w-full;
+}
+
+.login-link-forgot {
+  @apply text-main hover:underline text-sm;
+}
+
+.login-divider {
+  @apply flex items-center justify-center text-gray-400 text-sm;
+}
+
+.login-socials {
+  @apply flex items-center justify-center gap-4;
+}
+
+.login-social-btn {
+  @apply flex items-center justify-center gap-2 w-1/2 py-3 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-100 transition;
+}
+
+.login-submit {
+  @apply w-full bg-main text-white py-3 text-lg rounded-lg hover:bg-black transition;
+}
+
+.login-register {
+  @apply text-center text-gray-500 text-sm mt-4;
+}
+
+.login-register-link {
+  @apply text-main hover:underline font-medium;
+}
