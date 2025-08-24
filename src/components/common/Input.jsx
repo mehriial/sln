@@ -8,7 +8,7 @@ function Input({
     name
 }) {
     const baseClass =
-        "w-full border rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-main";
+        "w-full border rounded-lg p-3 text-sm focus:outline-none focus:ring-2 focus:ring-main bg-white hover:border-main border-gray-300";
 
     const inputClass = twMerge(baseClass, className);
 
