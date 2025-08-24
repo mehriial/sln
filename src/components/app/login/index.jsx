@@ -29,22 +29,19 @@ function Login() {
           </Link>
         </div>
 
-        <div className="login-divider">və ya</div>
-
-        <div className="login-socials">
-          <Button type="button" variant="outline" className="login-social-btn">
-            <PiGoogleLogo size={15} /> Google
-          </Button>
-          <Button type="button" variant="outline" className="login-social-btn">
-            <PiAppleLogo size={15} /> Apple
-          </Button>
-        </div>
-
         <Button type="submit" className="login-submit">
           Daxil ol
         </Button>
       </form>
-
+      <div className="login-divider">və ya</div>
+      <div className="login-socials">
+        <Button type="button" variant="outline" className="login-social-btn">
+          <PiGoogleLogo size={15} /> Google
+        </Button>
+        <Button type="button" variant="outline" className="login-social-btn">
+          <PiAppleLogo size={15} /> Apple
+        </Button>
+      </div>
       <p className="login-register">
         Hesabınız yoxdur?{" "}
         <Link to="/auth/register" className="login-register-link">

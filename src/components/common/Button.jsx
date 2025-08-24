@@ -22,7 +22,7 @@ function Button({
     };
 
     const baseClass =
-        "rounded-md font-medium transition-colors focus:outline-none focus:ring-main focus:ring-2 focus:ring-offset-2";
+        "rounded-md font-medium transition-colors focus:outline-none focus:ring-main focus:ring-1 focus:ring-offset-2";
 
     const buttonClass = twMerge(
         baseClass,
